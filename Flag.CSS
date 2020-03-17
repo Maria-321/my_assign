@@ -1,0 +1,104 @@
+.flag{
+    margin-left: 34%;
+    margin-top: 40px;
+}
+.flag .a {
+    border-top: solid black 100px;
+    border-bottom:solid yellow 100px;
+    padding: 50px;
+    background-color: red;
+    width:400px;
+    margin-bottom: 30px;
+}
+.flag .b {
+    border-right:  red solid 160px;
+    border-left: blue solid 160px;
+    padding: 50px;
+    background-color: yellow;
+    width:80px;
+    height:200px;
+    margin-bottom: 30px;
+}
+.flag .c {
+    border-top: solid red 100px;
+    border-bottom:solid yellow 100px;
+    padding: 50px;
+    background-color: blue;
+    width:400px;
+    margin-bottom: 30px;
+}
+.flag .d {
+    border-right: solid black 160px;
+    border-left:solid yellow 160px;
+    padding: 50px;
+    background-color: red;
+    width:80px;
+    height: 200px;
+    margin-bottom: 30px;
+}
+.flag .e {
+    border-right: solid blue 160px;
+    border-left:solid red 160px;
+    padding: 50px;
+    background-color: yellow;
+    width:80px;
+    height: 200px;
+    margin-bottom: 30px;
+}
+.flag .f {
+    border-top: solid green 100px;
+    border-bottom:solid blue 100px;
+    padding: 50px;
+    background-color: yellow;
+    width:400px;
+    margin-bottom: 30px;
+}
+.flag .g {
+    border-right: solid green 160px;
+    border-left:solid red 160px;
+    padding: 50px;
+    background-color: yellow;
+    width:80px;
+    height: 200px;
+    margin-bottom: 30px;
+}
+.flag .h {
+    border-top: solid yellow 100px;
+    border-bottom:solid red 100px;
+    padding: 50px;
+    background-color: green;
+    width:400px;
+    margin-bottom: 30px;
+}
+.flag .i {
+    border-right: solid red 160px;
+    border-left:solid green 160px;
+    padding: 50px;
+    background-color: yellow;
+    width:80px;
+    height: 200px;
+    margin-bottom: 30px;
+}
+.flag .j {
+    border-top: solid rgb(140, 140, 236) 100px;
+    border-bottom:solid rgb(145, 145, 247) 100px;
+    padding: 20px;
+    background-color: black;
+    width:400px;
+    margin-bottom: 30px;
+}
+.flag .k {
+    border-top: solid blue 200px;
+    border-bottom:solid yellow 200px;
+    width:500px;
+    margin-bottom: 30px;
+}
+.flag .l {
+    border-top: solid yellow 100px;
+    border-bottom:solid red 60px;
+    padding: 30px;
+    background-color: blue;
+    width:400px;
+    margin-bottom: 30px;
+}
+

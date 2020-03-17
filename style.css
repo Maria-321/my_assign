@@ -1,0 +1,137 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color:linen;
+    border: 5px lightgrey solid;
+    margin: 0px auto;
+}
+p{
+    color: lightcoral;
+}
+
+header{
+
+    background-color:rgba(119, 126,126,0.7);
+    position: fixed;
+    top: 0;
+    width: 98%
+
+}
+section{
+
+    padding: 5px 30px;
+    margin-top: 100px;    
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+article{
+    line-height: 25px;
+    text-align: justify;
+    font-size: 15px;
+
+}
+
+.title{
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.date{
+    text-transform: capitalize;
+    color: linen;
+    font-style: italic;
+    font-size: 15px;
+}
+/* changing the nature */
+nav > ul >li{
+    display: inline-block;
+    padding: 10px 3px;
+    font-size: 20px;
+    
+}
+
+nav > ul > li> a{
+    text-decoration: none;
+    color:black ;
+    font-family: fantasy;
+} 
+nav > ul > li:hover {
+    background-color:lightgreen; 
+}
+
+nav > ul > li a:active{
+    color: burlywood;
+}
+h1,h3{
+    color:lightseagreen;
+}
+div.Me{
+    margin-left: 0px;
+}
+div.skill{
+    margin: 30px 0px 30px 30px;
+    border-bottom: darkblue;
+}
+div.hobbies> ul >li {
+    margin: 30px 0px 30px 30px;
+    padding: 5px;
+}
+div.img{
+    width: 30%;
+    padding: 10px;
+    border:1px solid lightblue;
+    height: auto;
+    border-radius: 100%;
+    float: right;
+    margin: right;
+}
+img{
+    float: right;
+    margin: 0 0 10px 10px;
+}
+#clear{
+
+    clear: left;
+}
+div.form{
+width: 250px;
+margin: 10px;
+padding: 25px;
+border-bottom: teal;
+}
+input{
+    position: relative;
+    margin-bottom: 10px;
+    width: 180px;
+    padding: 8px;
+}
+input[type=submit]{
+    position: relative;
+    width: 100px;
+    height: 40px;
+    margin-top: 10px;
+
+}
+div.two{
+    margin-top: 0px;
+    margin-bottom: 180px;
+}
+div.intro{
+   
+    width: 800px;
+    margin: 50px 100px 30px 50px;
+    border: none;
+    border-bottom: darkblue;
+}
+div.img{
+    border-radius: 30px;
+}
+caption{
+    align-content: center;
+}
+div.nav{
+    background-color: aqua;
+    padding: 15px;
+}
