@@ -20,6 +20,9 @@
                     <a href="blog.html">Blog</a>
                 </li>
                 <li><a href="Gallery.html">Gallery</a></li>
+                <li>
+                    <a href="My works.html">My Work</a>
+                </li>
             </ul>
         </nav>
     </header>
@@ -80,14 +83,13 @@
                                                    }
                     Pseudo-classes
                     It’s likely that you’re already familiar with some of the user interaction pseudo-classes,namely :link, :visited, :hover, :active, and :focus.
-                    A few more pseudo-class selectors were added in CSS3. One is the :root selector, which allows designers to point to the root element of a document. In HTML, it would be <html>. Since :root is generic, it allows a designer to select the root element of an XML document without necessarily knowing it’s name. To permit scrollbars when needed in a document, this rule would work.
+                    A few more pseudo-class selectors were added in CSS3. One is the :root selector, which allows designers to point to the root element of a document. In HTML, it would be html>. Since :root is generic, it allows a designer to select the root element of an XML document without necessarily knowing it’s name. To permit scrollbars when needed in a document, this rule would work.
                     :root{overflow:auto;}
-                    As a complement to the :first-child selector, the :last-child was added. With it one can select the last element named of a parent element. For a site with articles contained in <div class=’article’></div> tags, where each has a last paragraph with some information that needs to be uniformly stylized, this rule would change the font for last paragraph of each article.
+                    As a complement to the :first-child selector, the :last-child was added. With it one can select the last element named of a parent element. For a site with articles contained in div class=’article’>/div> tags, where each has a last paragraph with some information that needs to be uniformly stylized, this rule would change the font for last paragraph of each article.
                     div.article > p:last-child{font-style: italic;}
                     A new user interaction pseudo-class selector was added, the :target selector. To draw the user’s attention to a span of text when the user clicks on a same-page link, a rule like the first line below would work nicely; the link would look like the second line, the highlighted span like the third.
                     span.notice:target{font-size: 2em; font-style: bold;}
-                    <a href='#section2'>Section 2</a>
-                    <p id='section2'>...</p>
+                   
                     A functional notation for selecting specified elements that fail a test has been created. The negation pseudo-class selector, :not can be coupled with almost any other selector that has been implemented. For example to put a border around images that don’t have a border specified, use a rule like this.
                     img:not([border]){border: 1;}
                     #2. CSS3 Colors
